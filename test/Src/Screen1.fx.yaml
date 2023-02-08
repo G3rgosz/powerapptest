@@ -1,0 +1,88 @@
+Screen1 As screen:
+    Fill: =RGBA(232, 244, 217, 1)
+
+    titleLbl As label:
+        FontWeight: =FontWeight.Bold
+        Height: =99
+        Size: =30
+        Text: ="Háromszög terület számító"
+        Width: =610
+        X: =177
+        Y: =3
+        ZIndex: =2
+
+    baseInput As text:
+        BorderColor: =RGBA(99, 139, 44, 1)
+        Default: =""
+        Fill: =RGBA(237, 237, 237, 1)
+        Format: =TextFormat.Number
+        X: =177
+        Y: =224
+        ZIndex: =3
+
+    heightInput As text:
+        BorderColor: =RGBA(99, 139, 44, 1)
+        Default: =""
+        Fill: =RGBA(237, 237, 237, 1)
+        Format: =TextFormat.Number
+        X: =177
+        Y: =337
+        ZIndex: =4
+
+    baseLbl As label:
+        FontWeight: =FontWeight.Bold
+        Text: |-
+            ="Alap:"
+        X: =177
+        Y: =184
+        ZIndex: =5
+
+    heightLbl As label:
+        FontWeight: =FontWeight.Bold
+        Text: |-
+            ="Magasság:"
+        X: =177
+        Y: =297
+        ZIndex: =6
+
+    resultLbl As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =104
+        Size: =25
+        Text: |-
+            ="Eredmény: " & result
+        Width: =587
+        X: =607
+        Y: =488
+        ZIndex: =7
+
+    submitBtn As button:
+        OnSelect: |-
+            =UpdateContext({result: (baseInput.Text*heightInput)/2})
+        Text: ="Számít"
+        X: =177
+        Y: =429
+        ZIndex: =8
+
+    Label1 As label:
+        Height: =63
+        Text: =Text( Now(), DateTimeFormat.LongDateTime )
+        Width: =234
+        X: =1132
+        Y: =704
+        ZIndex: =9
+
+    Image1 As image:
+        Height: =495
+        Image: ='triangle-pqr-with-angles-sides-vertex-1620368538'
+        Width: =558
+        X: =808
+        ZIndex: =10
+
+    Icon1 As icon.Database:
+        Icon: =Icon.Database
+        OnSelect: =
+        X: =1194
+        Y: =508
+        ZIndex: =11
+

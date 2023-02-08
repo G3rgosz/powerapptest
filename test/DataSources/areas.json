@@ -1,0 +1,95 @@
+[
+  {
+    "DisplayName": "areas (Megjelenítések)",
+    "Name": "_cr8bc_areas_views",
+    "RelatedEntityName": "areas",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "9a30cd97-1f2c-4f8d-8c09-7f013526eaaa": "areas - Keresési nézet",
+      "b62a5d5d-3006-4b41-b5dd-c861c77d9a41": "Aktív areas",
+      "e652bd89-2a81-4775-9a34-817d93900b8c": "areas - Hozzárendelt nézet",
+      "e7ccb643-3bc1-4396-b57c-e26dd3571c43": "areas - Irányított keresési nézet",
+      "fc420d14-a1ba-443b-aa79-ae487dc4e724": "Inaktív areas"
+    }
+  },
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr8bc_areases",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr8bc_areas",
+    "MaxGetRowsCount": 500,
+    "Name": "areas",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Tulajdonos",
+      "cr8bc_areas_AsyncOperations": "Rendszerfeladatok",
+      "cr8bc_areas_BulkDeleteFailures": "Tömeges törlési hibák",
+      "cr8bc_areas_MailboxTrackingFolders": "Postaláda automatikusan követett mappái",
+      "cr8bc_areas_PrincipalObjectAttributeAccesses": "Mező megosztása",
+      "cr8bc_areas_ProcessSession": "Feldolgozási munkamenetek",
+      "cr8bc_areas_SyncErrors": "Szinkronizálási hibák",
+      "cr8bc_areasid": "area",
+      "cr8bc_nev": "Név",
+      "createdby": "Létrehozta",
+      "createdon": "Létrehozás dátuma",
+      "createdonbehalfby": "Létrehozó (meghatalmazott)",
+      "importsequencenumber": "Importálás sorszáma",
+      "modifiedby": "Módosította",
+      "modifiedon": "Módosítás dátuma",
+      "modifiedonbehalfby": "Módosította (meghatalmazott)",
+      "overriddencreatedon": "Rekord létrehozva",
+      "owningbusinessunit": "Tulajdonos részleg",
+      "owningteam": "Tulajdonos csoport",
+      "owninguser": "Tulajdonos felhasználó",
+      "statecode": "Állapot",
+      "statuscode": "Állapot oka",
+      "timezoneruleversionnumber": "Időzónaszabály verziószáma",
+      "utcconversiontimezonecode": "UTC-konverzió időzónakódja",
+      "versionnumber": "Verziószám"
+    },
+    "PreferredName": "areas",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Állapot (areas)",
+    "Name": "cr8bc_areas_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Aktív",
+      "1": "Inaktív"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "areas"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "areas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Állapot oka (areas)",
+    "Name": "cr8bc_areas_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Aktív",
+      "2": "Inaktív"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "areas"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "areas",
+    "Type": "OptionSetInfo"
+  }
+]

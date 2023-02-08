@@ -1,0 +1,97 @@
+{
+  "ComponentIndexes": {},
+  "ControlUniqueGuids": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "baseInput": 7,
+    "baseLbl": 6,
+    "heightInput": 9,
+    "heightLbl": 8,
+    "Icon1": 12,
+    "Image1": 4,
+    "Label1": 13,
+    "resultLbl": 11,
+    "Screen1": 3,
+    "submitBtn": 10,
+    "titleLbl": 5
+  },
+  "FunctionParamsInvariantScripts": {},
+  "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "02/08/2023 07:14:25",
+  "IsLegacyComponentAllowGlobalScopeCase": false,
+  "LocalConnectionIDReferences": {},
+  "LocalDatabaseReferencesAsEmpty": false,
+  "LocalResourceFileNames": {
+    "triangle-pqr-with-angles-sides-vertex-1620368538": "15b8ea9d-7a3f-4eb8-9bca-6787b75e0e89.png"
+  },
+  "LocalResourceRootPaths": {
+    "triangle-pqr-with-angles-sides-vertex-1620368538": "https://docserverpwaprodweu.blob.core.windows.net/bc889e0b-7bc5-4628-aca9-7064f607d451-1/resource/Assets0Images015b8ea9d-7a3f-4eb8-9bca-6787b75e0e89.png?sv=2017-04-17&sr=b&sig=HW6uQFFSCutzhPzgAt0Aui8%2FMYA9KsEPrF2uasYw6BA%3D&spr=https&se=2023-02-09T07%3A28%3A14Z&sp=r"
+  },
+  "OrderComponentMetadata": {},
+  "OrderComponentTemplate": {},
+  "OrderDataSource": {
+    "areas": 3,
+    "areas\\cr8bc_areas_statecode": 0,
+    "areas\\cr8bc_areas_statuscode": 1,
+    "areas\\default.cds_cr8bc_areas_views": 2
+  },
+  "OrderGroupControls": {},
+  "OrderPcfTemplate": {},
+  "OrderTemplate": {},
+  "OrderXMLTemplate": {
+    "button": 3,
+    "icon": 4,
+    "image": 0,
+    "label": 1,
+    "text": 2
+  },
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "baseInput": {},
+    "baseLbl": {},
+    "heightInput": {},
+    "heightLbl": {},
+    "Icon1": {},
+    "Image1": {},
+    "Label1": {},
+    "resultLbl": {},
+    "Screen1": {},
+    "submitBtn": {},
+    "titleLbl": {}
+  },
+  "PCFDynamicSchemaForIRRetrievalEntry": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "baseInput": 3,
+    "baseLbl": 2,
+    "heightInput": 5,
+    "heightLbl": 4,
+    "Icon1": 8,
+    "Image1": 0,
+    "Label1": 9,
+    "resultLbl": 7,
+    "Screen1": 0,
+    "submitBtn": 6,
+    "titleLbl": 1
+  },
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0,
+    "Image-triangle-pqr-with-angles-sides-vertex-1620368538": 1
+  },
+  "RuleScreenIdWithoutScreen": {},
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0991155,
+    "ControlCount": {
+      "button": 1,
+      "icon": 1,
+      "image": 1,
+      "label": 5,
+      "screen": 1,
+      "text": 2
+    },
+    "DeserializationLoadTime": 1.9209639,
+    "ErrorCount": 0
+  },
+  "WasLocalDatabaseReferencesEmpty": false
+}
